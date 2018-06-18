@@ -27,5 +27,6 @@ function maybeTrue() {
 function doWhileLoop(array) {
   do{array.splice(i,1)}
   while (array.length>0 && maybeTrue());
+  return array;
 }
 
