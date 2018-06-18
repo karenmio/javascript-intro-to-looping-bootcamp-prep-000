@@ -23,3 +23,7 @@ function whileLoop() {
   }
   return 'done';
 }
+
+fucntion doWhileLoop(array){
+  do{}
+}
