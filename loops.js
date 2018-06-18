@@ -1,19 +1,16 @@
 const array = [];
 
-  function forLoop(array) {
-    let i=0;
-    for (i===0; i<25; i++){
-  if (i===1){
+function forLoop(array) {
+  let i=0;
+  for (i===0; i<25; i++){
+   if (i===1) {
     array.push("I am 1 stange loop.")
- } else {
+   } else {
     array.push('I am ${i} strange loops.')
- }
-}
-
+   }
+  }
 return array;
-
 }
- 
  
 function whileLoop() {
   let countdown=100;
@@ -31,3 +28,4 @@ function doWhileLoop(array) {
   do{array.splice(i,1)}
   while (array.length>0 && maybeTrue());
 }
+
