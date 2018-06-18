@@ -24,6 +24,11 @@ function whileLoop() {
   return 'done';
 }
 
-fucntion doWhileLoop(array){
-  do{}
+function maybeTrue() {
+  return math.random() >=0.5
+}
+
+function doWhileLoop(array) {
+  do{array.splice(i,1)}
+  while (array.length>0 && maybeTrue());
 }
